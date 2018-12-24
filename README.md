@@ -2,6 +2,15 @@
 
 Quick and dirty docs, will fill out later...
 
+My primary use case is for embedded services, and loggers... it's tedious to 
+make sure everything properly exits / closes files, etc... with atexit you can
+"register" a function to run at program exit in other packages.
+
+It's not perfect, but it's "good enough" for me, hopefully it's good enough
+for you.
+
+Pull requests welcome.
+
 
 cmd/root.go
 ```
